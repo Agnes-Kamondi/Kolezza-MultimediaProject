@@ -52,5 +52,8 @@ p{
 }
 .logo{
     width:60%;
-    margin-top: -10%;
+    margin-top: -5%;
+}
+@media screen and (min-width:100px) and (max-width:280px){
+
 }
