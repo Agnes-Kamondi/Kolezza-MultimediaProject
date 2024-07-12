@@ -1,9 +1,13 @@
 import './App.css';
-import Blogs from './Blog'
-
+import Blogs from './Blog';
+import Portfolio from './Portfolio';
 function App() {
   return (
-   <Blogs/>
+    <div className="App">
+     <Blogs/>
+     <Portfolio/>
+     
+    </div>
   );
 }
 
