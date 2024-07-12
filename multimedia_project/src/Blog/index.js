@@ -7,7 +7,7 @@ import economyimage from '../Image/economy.jpg';
 
 function Blogs(){
     return(
-       <div class ='blog-section'>
+       <div className ='blog-section'>
         <div className = 'header-text'>
         <h2>Blog</h2>
         </div>
@@ -23,10 +23,10 @@ function Blogs(){
                Some of the issues discussed in the book are similar to the recent happenings in Kenya in our social, political, and economic context.
             </p>
         </div>
-        <div class = 'book-section'>
-            <div class = 'social-section'>
+        <div className = 'book-section'>
+            <div className = 'social-section'>
                 <h2>Social Issues</h2>
-                <img src = {kenyanimage} class = 'societal-image' alt = 'kenya'></img>
+                <img src = {kenyanimage} className = 'societal-image' alt = 'kenya'></img>
                 <p>
                 There are several key parallels between the social landscape of recent Kenya and the experiences depicted in Trevor Noah's "Born a Crime."
                 Both countries have grappled with long-standing tribalism and ethnic tensions that have at times erupted into violence.
@@ -37,9 +37,9 @@ function Blogs(){
                 and caution is warranted in drawing direct parallels.
                 </p>
             </div>
-            <div class = 'political-section'>
+            <div className = 'political-section'>
                 <h2>Political Issues</h2>
-                <img src = {flag} class = 'political-image' alt = 'kenya'></img>
+                <img src = {flag} className = 'political-image' alt = 'kenya'></img>
                 <p>
                 Trevor Noah's memoir "Born a Crime" recounts his experiences growing up during apartheid in South Africa,in
                 a system where racism  divided the country.
@@ -51,9 +51,9 @@ function Blogs(){
                .
                 </p>
             </div>
-            <div class = 'economic-section'>
+            <div className = 'economic-section'>
                 <h2>Economic Issues</h2>
-                <img src = {economyimage} class = 'economic-image' alt = 'kenya'></img>
+                <img src = {economyimage} className = 'economic-image' alt = 'kenya'></img>
                 <p>
                 Recent economic happenings in Kenya, such as the rise in taxation, align with themes in Trevor Noah's memoir "Born a Crime."
                 Both contexts highlight the prevalence of economic crimes, including asset misappropriation and fraud committed by consumers,
@@ -66,9 +66,9 @@ function Blogs(){
                 </p>
             </div>
         </div>
-        <div class = "project-article">
+        <div className = "project-article">
             <h2>Research On Second-Hand Fashion Waste </h2>
-            <img src = {article} class = 'project-image' alt = 'article'></img>
+            <img src = {article} className = 'project-image' alt = 'article'></img>
             </div>
         </div>
     )
