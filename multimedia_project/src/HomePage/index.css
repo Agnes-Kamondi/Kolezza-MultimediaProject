@@ -18,6 +18,19 @@
     gap: 6%;
     padding-top: 5%;
     margin-left: 3.5%;
+    padding-bottom: 5%;
+}
+#helloSection{
+    padding-top: 20%;
+    padding-top: 20%;
+    /* margin-top: 20%; */
+    color: black;
+}
+#helloSection p{
+    padding-top: 22%;
+    /* margin-top: 20%; */
+    color: black;
+
 }
 .img{
     border-radius: 15%;
@@ -36,10 +49,10 @@ b{
     margin-left: 30%;
     margin-bottom: 50px;
 }
-p{
+/* p{
     font-size: 1.5rem;
     font-weight: lighter;
-}
+} */
 .button{
     padding: 1.5%;
     border-radius: 15px;
@@ -47,13 +60,16 @@ p{
     color:white;
     font-size: 1rem;
     border: none;
-    margin-top: 5%;
+
+    /* margin-top: -35%; */
     
 }
 .logo{
     width:60%;
     margin-top: -5%;
 }
+
+
 @media screen and (min-width:100px) and (max-width:280px){
 
 }

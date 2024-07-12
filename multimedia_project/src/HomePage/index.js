@@ -20,9 +20,10 @@ const HomePage = ()=>{
         <div id="helloSection">
           <h1>Hell<span id='o'>o</span><br></br>Pe<span id='o'>o</span>ple</h1>
           <h1></h1>
-          <b>__________________________________</b>
-          <p>Welcome to Kolezza group's website</p>
-          <p>We believe that with Tech much more light was thrown onto the world with problem solving.</p>
+          <hr></hr>
+          <p>Welcome to Kolezza group's website <br></br>We believe that with Tech much more light was thrown onto the world with problem solving.</p>
+
+          <p></p>
           <button className='button'>Get Started</button>
         </div>
         <img src="/images/brain-lightbulb.avif" className='img'/>

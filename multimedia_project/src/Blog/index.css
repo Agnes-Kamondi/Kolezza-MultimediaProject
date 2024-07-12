@@ -1,6 +1,8 @@
-.header-text{
+.header-text h2{
     text-align: center;
     font-size: xx-large;
+    color: black;
+    /* font-weight: 300; */
 }
 .blog-section{
     font-family: Inter, sans-serif;
@@ -27,6 +29,8 @@
     font-size: 17px;
     padding-left: 15px;
     padding-right: 15px;
+    color: black;
+    font-weight: 300;
 }
 .author-section h2{
     margin-top: 8px;
@@ -51,6 +55,9 @@
     text-align: center;
     padding-left: 15px;
     padding-right: 15px;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
 }
 .political-section{
     box-shadow: 20px 20px 60px #dae1e8, -20px -20px 60px #dae1e8;
@@ -71,6 +78,9 @@
     text-align: center;
     padding-right: 15px;
     padding-left: 15px;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
 }
 .economic-section{
     box-shadow: 20px 20px 60px #c6b591, -20px -20px 60px #d9ba77;
@@ -91,6 +101,9 @@
     text-align: center;
     padding-right: 15px;
     padding-left: 15px;
+    color: black;
+    font-weight: 300;
+    font-size: 15px;
 }
 .book-section{
     display: flex;
