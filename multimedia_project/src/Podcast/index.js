@@ -1,8 +1,8 @@
-import './index.css';
+import './styles.css';
 
 const Podcast = () =>{
     return(
-        <div>
+        <div className='container'>
             <div className='live'>
             <img src="/images/micc.png" alt='mic' className='mic-png'/>
             <h1>K<span className='highlight'>o</span>lezza P<span className='highlight'>o</span>dcast</h1>

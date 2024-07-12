@@ -1,9 +1,18 @@
-import Podcast from "./Podcast";
+import './App.css';
+import Blogs from './Blog';
+import Portfolio from './Portfolio';
+import HomePage from './HomePage';
+import Podcast from './Podcast';
+
 
 function App() {
   return (
-    <div>
-     <Podcast/>
+    <div className="App">
+      <HomePage/>
+      <Podcast/>
+     
+     <Blogs/>   
+     <Portfolio/>
     </div>
   );
 }
