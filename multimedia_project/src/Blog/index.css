@@ -112,10 +112,21 @@
 .project-image{
     width: 50%;
     height: 50%;
-    margin-top: 3%;
-    margin-left: -5%;
+    margin-top: 5%;
+    margin-left: -8%;
     box-shadow: 20px 20px 60px #ded9cf, -20px -20px 60px #d7d5cf;
 }
+.article-image{
+    width: 50%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+    box-shadow: 20px 20px 60px #ded9cf, -20px -20px 60px #d7d5cf;
+}
+.project-article{
+    display: flex;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
     .header-text h2{
         font-size: 50px;
