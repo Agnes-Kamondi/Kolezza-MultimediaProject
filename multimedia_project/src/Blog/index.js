@@ -4,6 +4,7 @@ import trevornoah from '../Image/trevornoah.jpg';
 import kenyanimage from '../Image/kenyan-image.jpg';
 import flag from '../Image/flag.jpg';
 import economyimage from '../Image/economy.jpg';
+import trevorarticle from '../Image/trevorarticle.jpg';
 
 function Blogs(){
     return(
@@ -67,8 +68,9 @@ function Blogs(){
             </div>
         </div>
         <div className = "project-article">
-            <h2>Research On Second-Hand Fashion Waste </h2>
+            {/* <h2>Research On Second-Hand Fashion Waste </h2> */}
             <img src = {article} className = 'project-image' alt = 'article'></img>
+            <img src = {trevorarticle} className = 'article-image' alt = 'article'></img>
             </div>
         </div>
     )
