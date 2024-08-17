@@ -14,9 +14,11 @@ function App() {
       <Podcast/>
      <Blogs/> 
      <Portfolio/>
+     <Footer/>
      
     </div>
   );
 }
 
 export default App;
+
