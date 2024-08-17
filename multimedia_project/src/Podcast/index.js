@@ -1,26 +1,33 @@
+import React, { useRef } from 'react';
 import './styles.css';
+import audioFile from '../assets/Kolezza Podcast.mp3'; 
 
-const Podcast = () =>{
-    return(
+const Podcast = () => {
+    const audioRef = useRef(null); 
+
+    return (
         <div className='container'>
             <div className='live'>
-            <img src="/images/micc.png" alt='mic' className='mic-png'/>
-            <h1>K<span className='highlight'>o</span>lezza P<span className='highlight'>o</span>dcast</h1>
-            <div className='prompt'>LIVE</div>
+                <img src="/images/micc.png" alt='Microphone' className='mic-png'/>
+                <h1>K<span className='highlight'>o</span>lezza P<span className='highlight'>o</span>dcast</h1>
+                <div className='prompt'>LIVE</div>
             </div>
             <div className='content'>
-                <h2>How to be calm under pressure </h2>
-                <p>As Kolezza, we've faced numerous challenges, but persevered. Develop resilience, maintain positivity,
-                     seek support, and stay focused on your vision to navigate tough times in business. Embrace resilience,
-                      surround yourself with a supportive network, and break down big challenges. Join a mastermind group, hire a coach,
-                       and attend conferences. Review your plan, set objectives, and stay true to your values. Tough times don't last, but tough people do.
-                </p>
-                <img src="/images/youtube.png" alt='youtube' className='youtube-png'/>
+            <h2>How Cultural Men Are Attracted to Independent Women but Seek Traditional Relationships</h2>
+            <p>Cultural men are often drawn to independent women for their strength and ambition. 
+                However, many still desire traditional relationship dynamics, influenced by cultural expectations. 
+                This can create a tension between admiration for independence and the longing for conventional roles. 
+                Listen to our podcast to find out more about this</p>
+                <audio ref={audioRef} controls>
+                    <source src={audioFile} type="audio/mpeg" />
+                    Your browser does not support the audio element.
+                </audio>
             </div>
             <div>
-                <img src="/images/coming.png" alt='coming soon' className='comingsoon-png'/>
+                <img src="/images/coming.png" alt='Coming soon' className='comingsoon-png'/>
             </div>
         </div>
-    )
+    );
 }
+
 export default Podcast;
